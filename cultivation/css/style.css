@@ -1,0 +1,248 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 98%;
+}
+#resource {
+    display:block;
+    position: absolute;
+    top:20px;
+}
+.mining-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.mining-gif {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#oreCount {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 34px;
+    color: #003780;
+    display: block;
+    opacity: 0;
+    font-weight:bold;
+}
+
+/* The animation code */
+@keyframes example {
+  from {top:50%; opacity: 0}
+  to {top:0%; opacity: 1}
+}
+
+/* The element to apply the animation to */
+.animateOreCount {
+  display: block;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+#btn_sendTon {
+    background: #385d82;
+    border-radius: 3px;
+    color:#fff;
+    padding: 2px 5px;
+}
+
+#address{
+    padding: 5px;
+    background: #123f6c;
+    color: #fff;
+    width:309px;
+}
+
+#ore_icon {
+    width: 23px;
+    position: absolute;
+    top: 68%;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    position:absolute;
+}
+
+.mining-gif {
+    width: 100%;
+}
+
+#oreCount {
+    text-align: center;
+}
+
+.button-container {
+    position:absolute;
+    bottom: 14%;
+    left:8%;
+}
+
+.button-container button{
+    margin-top: 6px;
+    padding: 1px 2px;
+}
+
+.button-container img{
+    width: 50px;
+    margin-top: 2px;
+}
+
+.closePopupBtn {
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+}
+
+#recuit_student{
+    position:absolute;
+    left: 50% ;
+    top:20%;
+    font-size: 1.3em;
+    height:80%;
+}
+
+.container {
+/*    width: 50%; */
+    margin: 0 auto;
+    background: #eee;
+    height:95vh;
+}
+
+#btn_connectWallet {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#btn_connectWallet button{
+    padding:10px;
+    font-size: 20px;
+    background: #669bce;
+    border-radius: 5px;
+    color:#fff;
+    border-color: #669bce;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mining-container {
+    display:none;
+    /*background-image: url('/img/thamco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+.card {
+    width: 310px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float:left;
+    position: relative;
+}
+
+.card img {
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-block:0;
+}
+
+.card .info {
+    font-size: 14px;
+}
+
+#student_list{
+    overflow-y: scroll;
+    height:370px;
+}
+
+#hesoNhan{
+    position:absolute;
+    right:0px;
+    padding: 2px 7px;
+}
+
+#btn_sendTon{
+    position: absolute;
+    right: 34px;
+}
+
+#tele_user{
+    padding: 3px 3px;
+    background: #569e5f;
+    color: #fff;
+}
+
+a{
+    display: none;
+}
+
+#total_power {
+    color: #e2711a;
+    padding: 5px;
+    font-size: 20px;;
+}
+
+#map_list, #user_bag, #shop_list, #medicine_list, #market_list {
+    overflow-y: scroll;
+    height: 440px;
+}
+
+.card img.item-img {
+    width:28px;
+    margin-bottom: -2px;
+}
+
+.card.cardMap {
+    font-size: 24px;
+}
+
+#combatGif {
+    position:absolute;
+    width:100px;
+    left:32%;
+}
+
+#item_collect{
+    height:96px;
+    overflow-y: scroll;
+}
+
+.cardItem{
+    width: 120px;
+}
+
+.popup.sellPopup{
+    width:60%;
+    height:50%;
+}
+
+.cardMedicine img{
+    width:20px;
+    margin-bottom: -2px;
+}
+
+.symbol {
+    width: 18px;
+    margin-bottom: -4px;
+}

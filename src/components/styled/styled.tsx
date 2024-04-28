@@ -33,6 +33,7 @@ export const Button = styled.button`
   font-weight: 700;
   cursor: pointer;
   pointer-events: ${(props) => (props.disabled ? "none" : "inherit")};
+  margin-top: 10px;
 `;
 
 export const Ellipsis = styled.div`
@@ -50,4 +51,10 @@ export const Input = styled("input")`
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
+`;
+
+export const DivRight = styled.div`
+  position:absolute;
+  right:10%;
+  top:5%;
 `;

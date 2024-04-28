@@ -4,10 +4,11 @@ import { Counter } from "./components/Counter";
 import { Jetton } from "./components/Jetton";
 import { TransferTon } from "./components/TransferTon";
 import styled from "styled-components";
-import { Button, FlexBoxCol, FlexBoxRow } from "./components/styled/styled";
+import { Button, FlexBoxCol, FlexBoxRow, DivRight } from "./components/styled/styled";
 import { useTonConnect } from "./hooks/useTonConnect";
 import { CHAIN } from "@tonconnect/protocol";
 import "@twa-dev/sdk";
+import { Mine } from "./components/Mine";
 
 const StyledApp = styled.div`
   background-color: #e8e8e8;
@@ -17,7 +18,7 @@ const StyledApp = styled.div`
     background-color: #222;
     color: white;
   }
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 20px 20px;
 `;
 
@@ -34,18 +35,21 @@ function App() {
       <AppContainer>
         <FlexBoxCol>
           <FlexBoxRow>
-            <TonConnectButton />
-            <Button>
-              {network
-                ? network === CHAIN.MAINNET
-                  ? "mainnet"
-                  : "testnet"
-                : "N/A"}
-            </Button>
+            <DivRight>
+              <TonConnectButton />
+              <Button>
+                {network
+                  ? network === CHAIN.MAINNET
+                    ? "mainnet"
+                    : "testnet"
+                  : "N/A"}
+              </Button>
+            </DivRight>
           </FlexBoxRow>
-          <Counter />
-          <TransferTon />
-          <Jetton />
+          {/*<Counter />*/}
+          {/*<TransferTon />*/}
+          {/*<Jetton />*/}
+          <Mine />
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>

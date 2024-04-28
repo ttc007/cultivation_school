@@ -1,0 +1,51 @@
+6900283007:AAFtf_JQy_fFoNv2Kx6PYzufnWnFWB3c0q0
+
+
+{"ok":true,"result":{"id":6900283007,"is_bot":true,"first_name":"cultivation","username":"cultivation_school_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false,"can_connect_to_business":false}}
+
+
+t.me/cultivation_school_bot/myapp
+
+
+7175978402
+
+
+https://api.telegram.org/bot6900283007:AAFtf_JQy_fFoNv2Kx6PYzufnWnFWB3c0q0/setWebhook?url=https://drawingclass.mygamesonline.org/index.php
+
+
+TOn keeper: pelican
+ unlock
+ eye
+ clock
+ mimic
+ guide
+ steak
+ garlic
+ then
+ system
+ guard
+ guide
+ school
+ best
+ any
+ wage
+ tuition
+ better
+ bird
+ siren
+ talent
+ office
+ exclude
+ fly
+
+
+ https://helpful-valkyrie-b22465.netlify.app/
+
+
+ // Thông tin kết nối cơ sở dữ liệu
+$servername = "localhost"; // Tên máy chủ
+$username = "id20788178_cultivation"; // Tên người dùng cơ sở dữ liệu
+$password = "Thanhcong007!@#"; // Mật khẩu cơ sở dữ liệu
+$dbname = "id20788178_cultivation"; // Tên cơ sở dữ liệu
+
+{boc: "te6cckEBAgEAqAAB34gBn1s3+/cVlbJsMP5Y80ZBcUH7/TTHNMr8Yrf8MxzTR3oCQGZc53QPI5Jvjrr5YLdhC6jqa3HntyxZFFa8IBdtHYQnPlj+B1JQ/0COBo7SK6aI9QG8QBqrhAb9PClAKQp4AU1NGLsxU1pgAAAAyBwBAGZCABHfJXEek2+dJCGcmYNesv0pMdVen7Pt2R0ZNrhTXySgnMS0AAAAAAAAAAAAAAAAAABrCY/p"}

@@ -3,15 +3,18 @@ import styled from "styled-components";
 import { Address, toNano } from "ton";
 import { useTonConnect } from "../hooks/useTonConnect";
 import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
+import { CHAIN } from "@tonconnect/protocol";
+
 
 export function TransferTon() {
   const { sender, connected } = useTonConnect();
 
   const [tonAmount, setTonAmount] = useState("0.01");
   const [tonRecipient, setTonRecipient] = useState(
-    "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c"
+    "UQBV525rlkdQEe9cHwiydiXkvcShTLFceyq2EE3yFS9__QG4"
   );
-
+  const { network } = useTonConnect();
+  
   return (
     <Card>
       <FlexBoxCol>
@@ -34,7 +37,7 @@ export function TransferTon() {
           ></Input>
         </FlexBoxRow>
         <Button
-          disabled={!connected}
+          disabled={!connected || network === CHAIN.MAINNET}
           style={{ marginTop: 18 }}
           onClick={async () => {
             sender.send({

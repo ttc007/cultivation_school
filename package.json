@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "http://localhost:your_server_port",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -14,6 +15,7 @@
     "@tanstack/react-query": "^4.24.4",
     "@tonconnect/ui-react": "^2.0.0-beta.2",
     "@twa-dev/sdk": "^6.4.2",
+    "axios": "^1.6.8",
     "buffer": "^6.0.3",
     "is-mobile": "^3.1.1",
     "react": "^18.2.0",
